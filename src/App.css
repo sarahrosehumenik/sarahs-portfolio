@@ -3,7 +3,8 @@
   --color-main: #ffffff;
 
   /*10 pixels (100% = 16 pixels)*/
-  font-size: 62.5%; 
+  font-size: 62.5%;
+  background-image: linear-gradient( rgb(87, 117, 198) ,rgb(255, 219, 219));
 }
 
 * {
@@ -13,8 +14,11 @@
 }
 
 h1{
-  color: #ffffff;
-  font-size: 5rem;
+  color: #d30000;
+  font-size: 4vw;
+  font-family: 'Montserrat', sans-serif;
+  margin: 2vw 0 2vw 0;
+ 
 }
 
 .mobile-hidden{
@@ -22,36 +26,249 @@ h1{
 }
 
 .header {
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(37, 90, 30);
-  height: 100vh;
+  height: 125vh;
+  
+  
+
+
 }
 
+.headertext {
+  
+  width: 30vw;
+ 
+  margin: -2vw 7vh 0 0;;
+  padding: 2vw 2vw 2vw 2vw;
+  border: 2px solid rgb(247, 143, 213);
+  height: 32vw;
+  font-family: 'Montserrat', sans-serif;
+  animation: fadeInDown 1s ease-in-out;
+  background-color: rgba(247, 194, 231, 0);
+
+  box-shadow:   1px 2px 12px 2px rgba(28, 31, 31, 0.571); 
+  transition:transform 1.5s;
+}
+
+.headertext:hover {  
+  transform: skew(-5deg, -5deg);
+  }
+
+p {
+  font-size: 2vw;
+  color: rgb(238, 230, 0);
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  height: 38vw;
+  margin: -2vw 0 0 0;
+  
+}
+.icon {
+  height: 3vw;
+  margin: 3vw 2vw 0 0;
+  
+}
+
+.about {
+  height: 60vw;
+  margin: -2vw 0 0 0;
+  z-index:-1;
+  background-color: rgba(213, 156, 165, 0.536);
+  
+  
+  
+}
+.abouttext{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  width: 40%;
+  
+  left: 20%;
+  color: rgb(181, 6, 6);
+  z-index:-1;
+
+ 
+}
+
+
+
+h2{
+  margin: -35vw 0 0 -5vw;
+  font-size: 3vw;
+  padding: 10vw 0 0 0;
+}
 .section-1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(155, 124, 40);
-  height: 100vh;
+  position: relative;
+  height: 80vw;
+}
+.aboutdescript {
+  margin: -5vw 0 0 22vw;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  width: 40vw;
+  height: 20vw;
+  text-align: center;
+  left: 20%;
+  color: rgb(255, 255, 255);
+  border: 2px solid blue;
+  padding: 10vw 0 0 0;
+  box-shadow:   1px 2px 12px 2px rgba(28, 31, 31, 0.571); 
+  z-index: -1;
+  transition: translate 1.5s;
+ 
+
+
+}
+.aboutdescript:hover {  
+  transform: skew(-5deg, -5deg);
+  }
+
+
+
+
+
+.skills{
+  height: 40vw;
+  margin: -18vw 0 0 0;
+  z-index: -1;
+  background-color: rgba(198, 177, 255, 0.212);
+  padding: 0 20vw 10vw 0;
+  box-shadow:   1px 2px 12px 2px rgba(28, 31, 31, 0.571); 
+ 
 }
 
+.skillicons{
+  position: absolute;
+  height: 20vw;
+  left: 55vw;
+  z-index: -1;
+  margin: -5vw 0 0 0;
+
+}
+
+h3{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  width: 40%;
+  
+  
+  color: rgb(255, 31, 221);
+  margin: -50vw -35vw 0 0;
+  font-size: 4vw;
+  z-index:-1;
+
+
+
+  
+}
 .section-2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(90, 23, 90);
-  height: 100vh;
+  
+  height: 80vw;
+  
 }
 
 .section-3 {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .25fr 1fr 1fr 1fr 1fr;
+
+  align-content: center;
   justify-content: center;
-  background-color: rgb(15, 2, 61);
-  height: 100vh;
+  
+  margin:  auto;
+  height: 290vh;
 }
+
+
+h4{
+  display: flex;
+  justify-content: center;
+  color: rgb(242, 72, 20);
+  font-size: 3vw;
+  font-family: 'Montserrat', sans-serif;
+   grid-row: 1;
+   grid-column: 1/3;
+   margin: 7vw 0 3vw 0;
+   padding: 10vh 0 0 0;
+  
+}
+
+.one {
+  grid-column: 1/ 3;
+  grid-row: 2;
+  height: 40vw;
+  margin: 2vw auto;
+  /* border: 2px solid rgb(255, 255, 255); */
+  
+  /* background-color: rgba(229, 255, 0, 0.199); */
+  /* box-shadow:   1px 2px 12px 2px rgba(28, 31, 31, 0.571);  */
+
+}
+
+/* .onetext {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 3.5vw auto;
+  width: 50%;
+  height: 23vw;
+  text-align: left;
+  border: 2px solid rgb(255, 0, 0);
+  padding: 3vw;
+  font-size: 1.5vw;
+  background-color: rgba(255, 251, 0, 0);
+  box-shadow:   1px 2px 12px 2px rgba(28, 31, 31, 0.571); 
+  color: rgb(0, 0, 0);
+} */
+
+.two {
+  grid-column: 1/3;
+  grid-row: 3;
+  height: 40vw;
+  margin: 5vw auto;
+  
+
+  
+ 
+
+}
+
+.three {
+  grid-column: 1/3;
+  grid-row: 4;
+  height: 40vw;
+  margin: 5vw auto;
+  
+
+  
+ 
+
+}
+
+
+
+@keyframes fadeInDown {
+  0%{
+    opacity:0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 
 @media (max-width: 699px) {
   :root {
@@ -93,3 +310,4 @@ h1{
       font-size: 180%;
   }
 }
+

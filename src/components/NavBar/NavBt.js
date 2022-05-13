@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 export class NavBt extends Component {
 
     state = {
-        color: 'white', //Active color
-        color1: 'white',  //Base color
-        color2: '#E9D56F',  //Hover color
+        color: '#DFDF01', //Active color
+        color1: '#DFDF01',  //Base color
+        color2: 'blue',  //Hover color
         location: ""        
     }
 
@@ -24,8 +24,9 @@ export class NavBt extends Component {
         return{
             textDecoration: 'none',
             color: this.state.color,
-            fontSize: '1.9rem',
-            cursor: 'pointer' 
+            fontSize: '2.5vw',
+            cursor: 'pointer', 
+            margin: '0 2vw 0 0'
         }
     };
 

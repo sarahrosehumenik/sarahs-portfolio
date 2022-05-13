@@ -7,6 +7,9 @@ import NavBt from './NavBt';
 const Ul = styled.ul`
   list-style: none;
   display: flex;
+  font-family:'BIZ UDPGothic', sans-serif;
+  
+  
   flex-flow: row nowrap;
   .side-menu{
     margin-top: 6rem;
@@ -15,7 +18,7 @@ const Ul = styled.ul`
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #272626; // BG COLOR
+    background-color: black; // BG COLOR
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
@@ -37,9 +40,9 @@ const navContainer = {
   /* backgroundColor: "green", */
   marginTop: '1rem',
   padding: '.5rem',
-  color: 'white',
-  position: 'absolute',
-  right: '6rem'
+  color: '#DFDF01',
+  
+  margin: 'auto'
 
 }
 
@@ -53,7 +56,7 @@ const navContainer = {
 const barStyle = {
   display:'flex',
   width: '100vw',
-  padding: '.5rem'
+ 
 }
 
 const RightNav = ({ open }) => {
@@ -67,16 +70,14 @@ const RightNav = ({ open }) => {
 
       <div style={navContainer}>
         <Ul open={open}>
-            <NavBt path="Header" name="Header"/>
-            <NavBt path="S1" name="Section-1"/>
-            <NavBt path="S2" name="Section-2"/>
-            <NavBt path="S3" name="Section-3"/>
+        <NavBt path="header" name="☺︎ "/> 
+            <NavBt path="about" name="About"/> 
+            <NavBt path="S2" name="Skills"/> 
+            <NavBt path="projects" name="Projects"/> 
 
             <div className="side-menu">
               <div className="flex-container-column ">
-                <p style={{fontSize: "2rem"}}>Alguma Soisa</p>
-                <p>Something</p>
-                <h2 >ANYTHING</h2>
+               
               </div>
             </div>
 

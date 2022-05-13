@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import Burger from './Burger';
 
 const Nav = styled.nav`
-  z-index: 10;
-  background-color: #272626; 
+  z-index: 30;
+  background-color:#1d877e; 
   padding: 0 20px;
   display: flex;
-  justify-content: space-between;
+  
 `
 
 const NavBar = () => {
