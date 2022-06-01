@@ -1,13 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import NavBt from './NavBt';
+import "./Nav.css"
 // import {Link} from 'react-router-dom';
 // import {ReactComponent as Logo} from '../../assets/images/logo.svg';
 
-const Ul = styled.ul`
+const Ul = styled.nav`
   list-style: none;
   display: flex;
   font-family:'BIZ UDPGothic', sans-serif;
+ 
+  
   
   
   flex-flow: row nowrap;
@@ -18,10 +22,11 @@ const Ul = styled.ul`
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: black; // BG COLOR
-    position: fixed;
+    background-color: rgb(222, 255, 5);; // BG COLOR
+    position:fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
+   
     right: 0;
     height: 100vh;
     width: 65vw;
@@ -70,11 +75,11 @@ const RightNav = ({ open }) => {
 
       <div style={navContainer}>
         <Ul open={open}>
-        <NavBt path="header" name="☺︎ "/> 
-            <NavBt path="about" name="About"/> 
-            <NavBt path="S2" name="Skills"/> 
-            <NavBt path="projects" name="Projects"/> 
-
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/skills">Skills</Link>
+        <Link to="/projects">Projects</Link>
+           
             <div className="side-menu">
               <div className="flex-container-column ">
                

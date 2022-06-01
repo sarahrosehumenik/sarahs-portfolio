@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    top:0;
+}
+
+
+h1 {
+    color: #000000;
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 2vw 0;
+  }
+
+
+  .projects-header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    z-index: -2;
+    
+  }
+  
+  .headertext {
+  
+    width:50%;
+     height: 100%;
+    text-align: left;
+  
+    margin: 3vh auto;
+    padding: 4vw 4vw 4vw 4vw;
+   
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+    z-index: -1;
+  
+    
+  }
+   
+  
+
+ 
+  
+  .project{
+    height: 38vw;
+    margin: 0 0 1vw 3vw;
+    z-index: 1;
+  }
+
+  h2{
+      margin: 1vw 0 5vw 0;
+      text-align: center;
+  }
+
+  @media only screen and (max-width: 620px) {
+ h2 {
+     font-size: 3vw;
+ }
+
+ .projects-header {
+     margin: 10vh auto;
+ }
+
+
+}

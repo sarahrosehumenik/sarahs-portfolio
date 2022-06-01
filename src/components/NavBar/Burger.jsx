@@ -14,11 +14,13 @@ const StyledBurger = styled.div`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+    z-index: 20;
   }
   div {
     width: 3rem;
     height: 0.25rem;
-    background-color: white; //BURGER ICON COLOR
+    background-color: blue; //BURGER ICON COLOR
+
     border-radius: 10px;
     transform-origin: 1px;
 

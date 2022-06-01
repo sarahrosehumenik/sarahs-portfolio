@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 export class NavBt extends Component {
 
     state = {
-        color: '#DFDF01', //Active color
-        color1: '#DFDF01',  //Base color
+        color: 'black', //Active color
+        color1: 'black',  //Base color
         color2: 'blue',  //Hover color
         location: ""        
     }

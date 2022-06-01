@@ -1,0 +1,79 @@
+h1 {
+    color: #000000;
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 2vw 0;
+  }
+
+
+  .header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  
+  .headertext-landing {
+  
+    width:50%;
+   
+    text-align: left;
+  
+    margin: 5vh auto;
+    padding: 4vw 4vw 4vw 4vw;
+   
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    animation: fadeInDown 1s ease-in-out;
+   
+    z-index: -1;
+  
+  
+    
+  }
+  
+ 
+  
+
+  .one {
+      margin: 4vh auto;
+      font-size: 2vw;
+  }
+
+  .two {
+      margin: 12vh auto;
+      font-size: 2vw;
+  }
+  
+  img {
+    height: 38vw;
+    margin: -2vw 0 0 0;
+  }
+  .icon {
+    height: 3vw;
+    margin: 30vh 2vw 0 0;
+  }
+
+  @media only screen and (max-width: 620px) {
+    .one{
+ 
+     font-size: 4vw;
+     text-align: center;
+     margin: 10vw 0 0 8vw;
+
+ 
+ 
+    }
+    .two {
+        font-size: 3vw;
+        margin: 25vw 0 0 6vw;
+    }
+    .headertext-landing {
+        margin: 15vh auto;
+        height: 60vh;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+  }
