@@ -16,7 +16,7 @@ h1 {
     display: flex;
     align-content: center;
     justify-content: center;
-    z-index: -2;
+    z-index: -50;
     
   }
   
@@ -32,9 +32,16 @@ h1 {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     
-    z-index: -1;
+    z-index: 0;
   
     
+  }
+
+  .links {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(242, 206, 212);
+      color: blue;
   }
    
   
@@ -61,5 +68,7 @@ h1 {
      margin: 10vh auto;
  }
 
-
+.links {
+    font-size: 5vw;
+}
 }

@@ -26,7 +26,7 @@ const Ul = styled.nav`
     position:fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
-   
+    z-index:2;
     right: 0;
     height: 100vh;
     width: 65vw;

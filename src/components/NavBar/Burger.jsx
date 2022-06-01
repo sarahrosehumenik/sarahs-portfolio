@@ -8,19 +8,19 @@ const StyledBurger = styled.div`
   position: fixed;
   top: 15px;
   right: 3rem;
-  z-index: 20;
+ 
   display: none;
   @media (max-width: 768px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
-    z-index: 20;
+    z-index: 30;
   }
   div {
     width: 3rem;
     height: 0.25rem;
     background-color: blue; //BURGER ICON COLOR
-
+  
     border-radius: 10px;
     transform-origin: 1px;
 
