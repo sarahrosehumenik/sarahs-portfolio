@@ -22,8 +22,8 @@ export default function Projects() {
            a gentle excersize of using text to create an image on a drawing canvas.
            Let this alternative world give you a reprieve. 
        </h2>
-       <img className="project" src="https://i.imgur.com/2J76SMP.png"></img>
-       <a className="links" href="https://checkmeout-marketplace.herokuapp.com/products/">Visit Site</a>
+       <img className="project" src="https://i.imgur.com/Hx9ywvp.png"></img>
+       <a className="links" href="https://checkme-out.herokuapp.com/products/">Visit Site</a>
        <a className="links" href="https://github.com/turpen2319/creative_marketplace">GitHub</a>
 
        <h2>Don't get paid in clout, post your products on Check Me Out.
