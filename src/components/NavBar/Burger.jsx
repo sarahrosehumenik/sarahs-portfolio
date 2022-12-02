@@ -19,7 +19,7 @@ const StyledBurger = styled.div`
   div {
     width: 5vh;
     height: 0.25rem;
-    background-color: blue; //BURGER ICON COLOR
+    background-color: rgb(200, 140, 240); //BURGER ICON COLOR
   
     border-radius: 10px;
     transform-origin: 1px;
