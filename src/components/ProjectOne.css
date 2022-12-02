@@ -182,14 +182,25 @@ i, .solo-icon {
         width:100%;
     }
     .tech-icons {
-        margin: 1vh auto;
+        margin: 2vh auto;
      justify-content: center;
      text-align: center;
+     align-items: center;;
+    
+    }
+    i, .solo-icon {
+        margin: 3vh;
     
     }
 
     .project-links {
-        margin: 2vh auto;
-        justify-content:center;
+        margin:  auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .links {
+        font-size: 12px;
+        margin: 1vh;
     }
 }
