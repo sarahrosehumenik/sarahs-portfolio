@@ -28,11 +28,11 @@
 
 @media (max-width:632px) {
     .project-nav {
-        margin: 3vh auto;
+        margin: 4.5vh auto;
         border-top:none;
     }
 
     .project-nav-button {
-        font-size: 10px;
+        font-size: 12.5px;
     }
 }

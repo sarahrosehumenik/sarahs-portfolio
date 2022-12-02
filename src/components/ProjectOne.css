@@ -178,6 +178,12 @@ i, .solo-icon {
         text-align: center;
         width: 90%;
     }
+    .project-title {
+        font-size: 28px;
+    }
+    .tech-stack {
+        font-size: 14px;
+    }
     .description {
         width:100%;
     }
@@ -185,7 +191,8 @@ i, .solo-icon {
         margin: 2vh auto;
      justify-content: center;
      text-align: center;
-     align-items: center;;
+     align-items: center;
+     font-size: 15px;
     
     }
     i, .solo-icon {
@@ -197,10 +204,12 @@ i, .solo-icon {
         margin:  auto;
         display: flex;
         justify-content: center;
+        grid-gap: 20px;
     }
 
     .links {
         font-size: 12px;
         margin: 1vh;
+        
     }
 }
