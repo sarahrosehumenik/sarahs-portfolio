@@ -22,6 +22,7 @@
 }
 
 .top-section {
+  margin-top: 1.5vh;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -35,8 +36,16 @@
 }
 
 .image-one {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-two{
   height:100%;
   width: 100%;
+  object-fit:cover;
+
 }
 
 .landing-text {
@@ -47,18 +56,31 @@
   flex-direction: column;
   align-items: center;
  
+ 
   font-family: 'Kumbh Sans', sans-serif;
+
 
 
 }
 .name {
-  color: rgb(46, 46, 46);
+  color: rgb(38, 39, 39);
+  width: 70%;
+  font-size: 30px;
+ 
   
 }
 .title {
-  color:rgb(103, 103, 103);
+  width: 70%;
+  color:rgb(200, 140, 240);
+  font-size: 13px;
 }
+.about {
 
+  width: 70%;
+  margin-top: 2vh;
+  font-size: 15px;
+  color:grey;
+}
 .bottom-section {
   display: flex;
   flex-direction: row;
@@ -70,23 +92,25 @@
 .space-two {
   background-color: rgb(221, 255, 0);
   height: 100%;
-  width: 30%;
+  width: 20%;
 
 }
 
 .contact-info {
   width: 40%;
-  height: 100%;
+  height: 99%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   font-family: 'Kumbh Sans', sans-serif;
+  
+ 
 }
 
 .space-three {
   background-color: rgb(29, 29, 29);
   height: 100%;
-  width: 47%;
+  width: 40%;
 
 }

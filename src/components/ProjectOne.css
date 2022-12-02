@@ -16,7 +16,7 @@
 
 .big-image {
     height: 40vh;
-    border-radius: 7px;
+    /* border-radius: 7px; */
 }
 
 /* .images-container {
@@ -27,7 +27,7 @@
 
 .images {
     object-fit: fill;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     cursor: pointer;
     
    
