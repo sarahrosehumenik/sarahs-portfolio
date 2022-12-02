@@ -146,7 +146,7 @@ i, .solo-icon {
 .selected {
     border: 2px grey solid;
 }
-@media (max-width:900px) {
+/* @media (max-width:900px) {
     .big-image{
         height: 37vh;
     }
@@ -156,8 +156,8 @@ i, .solo-icon {
     .project-information {
         margin-left: 80px;
     }
-}
-@media (max-width: 720px) {
+} */
+@media (max-width: 920px) {
     .project-container {
         margin: 7vh auto;
         flex-direction:column;
