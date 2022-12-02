@@ -41,7 +41,6 @@ export default function Projects() {
     }]
 const [projectData, setProjectData] = useState(projectInfo[0])
 
-
    return (
        <>
        

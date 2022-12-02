@@ -28,6 +28,7 @@
 
 @media (max-width:632px) {
     .project-nav {
+        margin: 3vh auto;
         border-top:none;
     }
 

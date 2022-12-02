@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import RightNav from './MyRightNav';
 
 const StyledBurger = styled.div`
-  width: 2rem;
-  height: 2rem;
-  position: fixed;
-  top: 15px;
-  right: 3rem;
+  width: 2vh;
+  height: 3vh;
+  position: absolute;
+  top: 2.5vh;
+  right: 4vh;
  
   display: none;
   @media (max-width: 632px) {
@@ -17,7 +17,7 @@ const StyledBurger = styled.div`
     z-index: 30;
   }
   div {
-    width: 3rem;
+    width: 4.5vh;
     height: 0.25rem;
     background-color: blue; //BURGER ICON COLOR
   
