@@ -4,16 +4,22 @@ import "./Landing.css"
 export default function Landing() {
     return (
         <div className="landing-container">
-        <div className="landing-text">
-        <p className="name">Sarah Rose</p><br></br>
-       
-        <p className="one">Full Stack Software Engineer</p><br></br>
-        <p className="two">Email: Sarahrosehumenik@gmail.com</p>
-        
-     
-        <a  href="https://github.com/sarahrosehumenik" target="_blank"
-        rel="noreferrer"> <img className="icon" src="https://i.imgur.com/ji4mQ78.png"/></a>
-        <a href="https://www.linkedin.com/in/sarah-rose33/"> <img className="icon" src="https://i.imgur.com/7qrrl44.png"></img></a><br></br>
+            <div className="spacer"></div>
+      <div className="top-section"> 
+      <div className="space-one"><img className="image-one" src="https://i.imgur.com/Tt4EQDN.jpg"></img></div>
+      <div className="landing-text">
+          <h1 className="name">Sarah Rose</h1>
+          <p className="title">Full Stack Web Developer</p>
+         
+    </div>
+       </div>
+       <div className="bottom-section">
+           <div className="space-two"></div>
+           <div className="contact-info">
+               <p>Email</p>
+               <p>links</p>
+               </div>
+               <div className="space-three"></div>
        </div>
        
 
