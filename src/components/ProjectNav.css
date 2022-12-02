@@ -1,0 +1,37 @@
+
+.project-nav {
+    margin: 1.5vh auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-top: 1px rgb(189, 189, 189) solid;
+    width: 90%;
+    padding-top: 3vh;
+   
+
+}
+
+.project-nav-button {
+    list-style: none;
+    font-size: 13px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: rgb(80, 80, 80);
+    cursor: pointer;
+    padding: 2px;
+}
+
+.project-nav-button:hover {
+    background-color: rgb(221, 255, 0);
+    
+
+}
+
+@media (max-width:632px) {
+    .project-nav {
+        border-top:none;
+    }
+
+    .project-nav-button {
+        font-size: 10px;
+    }
+}

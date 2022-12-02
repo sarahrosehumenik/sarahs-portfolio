@@ -24,7 +24,7 @@ export class NavBt extends Component {
         return{
             textDecoration: 'none',
             color: this.state.color,
-            fontSize: '2.5vw',
+            fontSize: '10px',
             cursor: 'pointer', 
             margin: '0 2vw 0 0'
         }

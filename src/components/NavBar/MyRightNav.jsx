@@ -1,26 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import NavBt from './NavBt';
 import "./Nav.css"
-// import {Link} from 'react-router-dom';
-// import {ReactComponent as Logo} from '../../assets/images/logo.svg';
 
 const Ul = styled.nav`
   list-style: none;
   display: flex;
   font-family:'BIZ UDPGothic', sans-serif;
- 
-  
-  
-  
   flex-flow: row nowrap;
-  .side-menu{
+  
+  .side-menu {
     margin-top: 6rem;
     visibility: hidden;
     position: absolute;
   }
-  @media (max-width: 768px) {
+ 
+  @media (max-width: 632px) {
     flex-flow: column nowrap;
     background-color: rgb(222, 255, 5);; // BG COLOR
     position:fixed;
@@ -37,60 +32,36 @@ const Ul = styled.nav`
       visibility: visible;
       position: relative;
     }
-  }
-    
-`;
+  }`
 
 const navContainer = {
-  /* backgroundColor: "green", */
   marginTop: '1rem',
   padding: '.5rem',
   color: '#DFDF01',
-  
-  margin: 'auto'
-
 }
 
-// const logoStyle = {
-//   width: "6rem",
-//   height: "6rem",
-//   cursor: "pointer",
-//   marginTop: ".3rem",
-// }
-
 const barStyle = {
-  display:'flex',
-  width: '100vw',
- 
+  display: 'flex',
+  width: '100%',
 }
 
 const RightNav = ({ open }) => {
   return (
 
     <div style={barStyle}>
-
-      {/* <Link to='/'> */}
-        {/* <Logo style={logoStyle}/>       */}
-      {/* </Link> */}
-
-      <div style={navContainer}>
+       <div style={navContainer}>
         <Ul open={open}>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/skills">Skills</Link>
-        <Link to="/projects">Projects</Link>
-           
+          <Link className="navi-link" to="/">Home</Link>
+          <Link className="navi-link" to="/skills">Skills</Link>
+          <Link className="navi-link" to="/projects">Projects</Link>
+          <img className="headshot" src="https://i.imgur.com/GgWvFWR.jpg"></img>
             <div className="side-menu">
               <div className="flex-container-column ">
-               
               </div>
             </div>
-
         </Ul>
-
-      </div>
-
-    </div>
+       </div>
+     </div>
   )
 }
 

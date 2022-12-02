@@ -1,11 +1,28 @@
-a {
+.navi-link {
     text-decoration: none;
-    font-size: 4vh;
-    margin: 3vh auto;
+    font-size: 15px;
+    margin: 1vh auto;
     color: black;
     z-index: 30;
-    padding: 0 4vh 0 4vh;
-    
-    
-    
+    padding: 0 2vh 0 2vh;
+    display: flex;
 }
+
+
+.headshot {
+    margin: -1vh auto;
+    height: 35px;
+    border-radius: 50% 50%;
+    display: flex;
+    position: absolute;
+    right: 3vh;
+
+}
+
+
+@media  (max-width: 632px){
+    .headshot{
+        visibility: hidden
+    }
+}
+    

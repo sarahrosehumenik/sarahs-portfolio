@@ -1,10 +1,5 @@
 :root {
-  /* variables css*/
- 
-
-  /*10 pixels (100% = 16 pixels)*/
-
-  background-image: url('https://i.imgur.com/6dSMaY1.jpg'); 
+  background-color:  white;
   background-size: auto;
   background-attachment: fixed;
   background-position: center;
