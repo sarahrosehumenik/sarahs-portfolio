@@ -159,7 +159,7 @@ i, .solo-icon {
 }
 @media (max-width: 720px) {
     .project-container {
-        margin: 10vh auto;
+        margin: 7vh auto;
         flex-direction:column;
         height: 100%;
         width: 100%;
