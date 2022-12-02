@@ -16,40 +16,21 @@
 
 .big-image {
     height: 40vh;
-    /* border-radius: 7px; */
+  
 }
 
-/* .images-container {
-    height: 8vh;
-    position: relative;
-    margin: 1.5vh 2vh 0 2vh;
-} */
+
+
 
 .images {
-    object-fit: fill;
-    /* border-radius: 5px; */
     cursor: pointer;
-    
-   
     height: 8vh;
     position: relative;
     height: 8vh;
     position: relative;
     margin: 1.5vh 2vh 0 2vh;
+    object-fit: fill;
 }
-
-/* .images-container:hover .images-container::before {
-    content: "";
-    position: absolute;
-    background-color: rgb(221, 255, 0, .5);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 5px;
-    margin: 1.5vh 2vh 0 2vh;
-
-} */
 
 
 
@@ -62,8 +43,8 @@
     width: 55%;
     justify-content: center;
     align-items: center;
-
-
+    
+    
 }
 
 .small-images {
@@ -75,23 +56,23 @@
 .project-information {
     display: flex;
     flex-direction: column;
-  
+    
     width: 45%;
     justify-content: space-evenly;
     margin-left: 100px;
     font-family: 'Kumbh Sans', sans-serif;
     height: 40%;
-
+    
     
 }
 
 .tech-stack {
-color: rgb(91, 90, 90);
-font-size: 12px;
-font-weight: bold;
-letter-spacing: 2px;
-margin-bottom: 2vh;
-
+    color: rgb(91, 90, 90);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 2vh;
+    
 }
 .project-title {
     color: rgb(38, 39, 39);
@@ -103,7 +84,7 @@ margin-bottom: 2vh;
     font-size: 13px;
     line-height: 4vh;
     width: 90%;
-   
+    
 }
 .tech-icons {
     margin-top: 2vh;
@@ -116,7 +97,7 @@ margin-bottom: 2vh;
 }
 i, .solo-icon {
     margin-right: 3vh;
-
+    
 }
 .project-links {
     margin-top: 3vh;
@@ -125,18 +106,18 @@ i, .solo-icon {
     width: 30%;
     justify-content: space-between;
     
-
+    
 }
 .links {
     text-decoration: none;
-   padding: 10px 25px 10px 25px;
+    padding: 10px 25px 10px 25px;
     background-color: rgb(200, 140, 240);
     margin-right: 20px; 
     color: white;
-    border-radius:7px;
+    
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.45);
     font-size: 15px;
-
+    
 }
 
 .links:active {
@@ -165,10 +146,10 @@ i, .solo-icon {
         width: 100%;
         
     }
-
+    
     .big-image{
         height:52vw;
-
+        
     }
     .images {
         height: 10.5vw;
@@ -189,27 +170,40 @@ i, .solo-icon {
     }
     .tech-icons {
         margin: 2vh auto;
-     justify-content: center;
-     text-align: center;
-     align-items: center;
-     font-size: 15px;
-    
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+        
     }
     i, .solo-icon {
         margin: 3vh;
-    
+        
     }
-
+    
     .project-links {
         margin:  auto;
         display: flex;
         justify-content: center;
         grid-gap: 20px;
     }
-
+    
     .links {
         font-size: 12px;
         margin: 1vh;
         
     }
+    
+    /* .images-container:hover .images-container::before {
+        content: "";
+        position: absolute;
+        background-color: rgb(221, 255, 0, .5);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 5px;
+        margin: 1.5vh 2vh 0 2vh;
+    
+    } */
 }
