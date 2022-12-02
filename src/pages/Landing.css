@@ -107,6 +107,27 @@
   
  
 }
+.email {
+  margin: 4vh;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(66, 66, 65);
+  text-decoration: none;
+}
+
+.email:hover {
+  background-color: rgb(250, 17, 17);
+  color: white;
+}
+.logo-container {
+  display:flex;
+  flex-direction:row;
+}
+#contact-logo {
+  font-size: 30px;
+ margin: 0 3vh 0 3vh;
+ color:rgb(0, 116, 89);
+}
 
 .space-three {
   background-color: rgb(29, 29, 29);
