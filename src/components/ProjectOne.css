@@ -159,7 +159,7 @@ i, .solo-icon {
 } */
 @media (max-width: 920px) {
     .project-container {
-        margin: 7vh auto;
+        margin: 5.5vh auto;
         flex-direction:column;
         height: 100%;
         width: 100%;
@@ -171,7 +171,7 @@ i, .solo-icon {
 
     }
     .images {
-        height: 10.25vw;
+        height: 10.5vw;
     }
     .project-information {
         margin: 10vh auto;
