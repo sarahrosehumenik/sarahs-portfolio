@@ -28,8 +28,8 @@
 
 @media (max-width:632px) {
     .project-nav {
-        margin: 4.5vh auto;
-        border-top:none;
+        margin: 5vh auto;
+       
     }
 
     .project-nav-button {
