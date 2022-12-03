@@ -28,8 +28,8 @@
     height: 8vh;
     position: relative;
     height: 8vh;
-    position: relative;
-    margin: 1.5vh 2vh 0 2vh;
+    
+    margin: 1.5vh;
     object-fit: fill;
     background-color: rgb(238, 198, 205);
 }
