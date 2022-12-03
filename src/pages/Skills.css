@@ -66,9 +66,9 @@
 .display {
   display: flex;
   justify-content:center;
-  align-items: flex-end;
+  
   margin-top: 20vh;
-  /* height: 5vh; */
+
   width: 200px;
   
   text-align: center;
@@ -76,7 +76,7 @@
 }
 .skill-text {
   font-family: 'Kumbh Sans', sans-serif;
-  color:rgb(139, 138, 138);
+  color:rgb(70, 70, 70);
   font-size: 25px;
 
 }
@@ -161,8 +161,9 @@ margin-top: 4vh;
 }
 
 .display {
-  margin: 2vh auto;
+  margin-top: 5vh;
 }
+
 }
 
 @media (max-width: 420px) {
