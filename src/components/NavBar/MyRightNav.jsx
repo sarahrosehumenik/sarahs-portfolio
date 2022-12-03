@@ -45,15 +45,20 @@ const barStyle = {
   width: '100%',
 }
 
-const RightNav = ({ open }) => {
+const RightNav = ({ open, setOpen }) => {
+
+  const closeNav = () => {
+    setOpen(false)
+  }
+
   return (
 
     <div style={barStyle}>
        <div style={navContainer}>
         <Ul open={open}>
-          <Link className="navi-link" to="/">Home</Link>
-          <Link className="navi-link" to="/skills">Skills</Link>
-          <Link className="navi-link" to="/projects">Projects</Link>
+          <Link onClick={closeNav} className="navi-link" to="/">Home</Link>
+          <Link onClick={closeNav} className="navi-link" to="/skills">Skills</Link>
+          <Link onClick={closeNav} className="navi-link" to="/projects">Projects</Link>
           <img className="headshot" src="https://i.imgur.com/GgWvFWR.jpg"></img>
             <div className="side-menu">
               <div className="flex-container-column ">
