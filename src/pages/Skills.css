@@ -134,26 +134,26 @@
 @media (max-width: 850px) {
   .skills-container {
     flex-direction: column;
-    margin-top: 5.5vh;
-    width: 100%;
-    margin-left: 0;
+    margin-top: 6.5vh;
+    width: 90%;
+    margin-left: 3vh;
     grid-gap: 5vh;
   }
 
   #skills-img{
-    width: 100%;
+    width: 110%;
   }
 
   .skills-title{
 
-    width: 100%;
+    width: 110%;
     text-align: center;
 
   
   }
   
   .about-skills {
-    width: 100%;
+    width: 110%;
     text-align: center;
     
   

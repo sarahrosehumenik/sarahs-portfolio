@@ -1,6 +1,6 @@
 
 .project-nav {
-    margin: 1.5vh auto;
+    margin-top: 1.5;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
@@ -28,7 +28,7 @@
 
 @media (max-width:632px) {
     .project-nav {
-        margin: 5vh auto;
+        margin: 6.5vh auto;
        
     }
 
