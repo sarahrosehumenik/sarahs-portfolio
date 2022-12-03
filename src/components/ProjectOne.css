@@ -45,6 +45,7 @@
     width: 55%;
     justify-content: center;
     align-items: center;
+    margin-left: 5vh;
     
     
 }
@@ -148,13 +149,16 @@ i, .solo-icon {
         width: 100%;
         
     }
+    .all-images {
+        margin-left: 0;
+    }
     
     .big-image{
         height:52vw;
         
     }
     .images {
-        height: 10.5vw;
+        height: 10vw;
     }
     .project-information {
         margin: 8vh auto;
