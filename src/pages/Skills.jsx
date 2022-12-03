@@ -58,6 +58,7 @@ const postman = () => {
     return (
 <div className="skills-container">
     <div className="skills-description">
+    <img id="skills-img" src="https://i.imgur.com/arJcD1v.jpg"/>
     <h1 className="skills-title">The skills to get the job done</h1>
     <p className="about-skills">This is a bunch of text as a place filler for what i will eventually say.i have lots of skills so check them out cause yeah thats whats up.</p>
     </div>
@@ -80,6 +81,7 @@ const postman = () => {
         <p onClick={vsCode} className="icon-container">VS</p>
         <p onClick={postman} className="icon-container"><i id="i" class="fa-solid fa-person"></i></p>
       </div>
+      <div className="extra-space"></div>
       </div>
 </div>
     )}

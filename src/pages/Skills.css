@@ -19,19 +19,35 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  margin-top: 15vh;
+  margin-top: 18vh;
+  
+  
+ 
+}
+
+#skills-img {
+  width: 80%;
+  height: 15vh;
+  
+  
+  object-fit: cover;
+  margin: 3vh;
+  padding-bottom: 2vh;
+  border-bottom: 1px rgb(221, 6, 6) solid;
+  
 }
 .skills-title{
 
-  width: 70%;
-  font-size: 35px;
+  width: 80%;
+  font-size: 30px;
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
+  margin-bottom: 4vh;
 
 }
 
 .about-skills {
-  width: 70%;
+  width: 80%;
   font-size: 18px;
   font-family: 'Kumbh Sans', sans-serif;
   color: grey;
@@ -52,10 +68,10 @@
   display: flex;
   justify-content:center;
   align-items: flex-end;
-  margin-top: 10vh;
+  margin-top: 20vh;
   /* height: 5vh; */
   width: 200px;
-  border-bottom: 1px solid rgb(19, 19, 19);
+  
   text-align: center;
   
 }
@@ -109,6 +125,10 @@
 .icon-container:hover {
   background-color: rgb(221, 255, 0);
 }
+.extra-space {
+  height: 7vh;
+  width: 100%;
+}
 
 @media (max-width: 620px) {
   .skills-container {
@@ -134,5 +154,9 @@
 .skills-description {
 margin-top: 4vh;
   width: 80%;
+}
+
+.display {
+  margin: 2vh auto;
 }
 }
