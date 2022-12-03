@@ -130,7 +130,7 @@
   width: 100%;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 720px) {
   .skills-container {
     flex-direction: column;
     margin-top: 5.5vh;
@@ -159,4 +159,16 @@ margin-top: 4vh;
 .display {
   margin: 2vh auto;
 }
+}
+
+@media (max-width: 420px) {
+  .skills-list{
+  height: 100px;
+  width: 300px;
+  }
+  .icon-container {
+    height: 40px;
+    width: 40px;
+  }
+
 }
