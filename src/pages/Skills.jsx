@@ -18,6 +18,11 @@ const css = () => {
 
     return (
 <div className="skills-container">
+    <div className="skills-description">
+    <h1 className="skills-title">The skills to get the job done</h1>
+    <p className="about-skills">This is a bunch of text as a place filler for what i will eventually say.i have lots of skills so check them out cause yeah thats whats up.</p>
+    </div>
+    <div className="button-board">
     <div className="display"><h1 className="skill-text">{currentSkill}</h1></div>
     <div className="skills-list">
         <p onClick={javaScript} className="icon-container"><i id="i" class="fa-brands fa-js"></i></p>
@@ -35,6 +40,7 @@ const css = () => {
         <p className="icon-container">m</p>
         <p className="icon-container">n</p>
         <p className="icon-container">o</p>
+      </div>
       </div>
 </div>
     )}
