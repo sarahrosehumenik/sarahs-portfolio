@@ -147,6 +147,7 @@ i, .solo-icon {
         flex-direction:column;
         height: 100%;
         width: 100%;
+      
         
     }
     .all-images {
@@ -164,6 +165,8 @@ i, .solo-icon {
         margin: 5vh auto;
         text-align: center;
         width: 90%;
+        border-bottom: 1px rgb(189, 189, 189) solid;
+        padding-bottom: 3vh;
     }
     .project-title {
         font-size: 28px;

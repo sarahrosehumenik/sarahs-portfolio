@@ -138,6 +138,8 @@
     width: 90%;
     margin-left: 3vh;
     grid-gap: 5vh;
+    border-bottom: 1px rgb(189, 189, 189) solid;
+    margin-bottom: 2vh;
   }
 
   #skills-img{
