@@ -9,6 +9,7 @@
   background-color: rgb(255, 255, 255);
   justify-content: space-between;
   border-top: 1px rgb(189, 189, 189) solid;
+  padding-bottom: 5vh;
 }
 
 .skills-description {
@@ -40,7 +41,8 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  padding-bottom: 2vh;
+ 
+  
 }
 .display {
   display: flex;
@@ -71,6 +73,7 @@
   height: 300px;
   width: 200px;
   background-color: rgb(255, 255, 255);
+  
 }
 
 .icon-container {
