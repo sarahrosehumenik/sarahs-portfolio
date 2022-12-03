@@ -16,6 +16,7 @@
 
 .big-image {
     height: 40vh;
+    background-color: rgb(238, 198, 205);
   
 }
 
@@ -30,6 +31,7 @@
     position: relative;
     margin: 1.5vh 2vh 0 2vh;
     object-fit: fill;
+    background-color: rgb(238, 198, 205);
 }
 
 

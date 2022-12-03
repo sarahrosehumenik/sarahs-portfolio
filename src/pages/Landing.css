@@ -1,6 +1,4 @@
 .landing-container {
-
-   
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -11,9 +9,6 @@
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
     border-top: 1px rgb(189, 189, 189) solid;
-    
-    
-  
 }
 
 .spacer {
@@ -30,7 +25,7 @@
 }
 
 .space-one {
-  background-color: rgb(87, 87, 87);
+  background-color: rgb(255, 211, 211);
   height: 100%;
   width: 60%;
 }
@@ -130,7 +125,7 @@
 }
 
 .space-three {
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(30, 61, 199);
   height: 100%;
   width: 40%;
 
