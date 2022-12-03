@@ -135,3 +135,50 @@
   width: 40%;
 
 }
+
+@media (max-width: 660px) {
+  .landing-container {
+    margin-top: 5.5vh;
+    height: 100%;
+    
+    border-bottom: 1px rgb(189, 189, 189) solid;
+
+  }
+
+  .top-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .space-one {
+    width: 100%;
+    height: 20vh;
+  }
+
+  .landing-text {
+    margin: 5vh auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .space-two {
+    width: 100%;
+    height: 5vh;
+}
+
+.contact-info {
+ width: 100%;
+}
+
+.space-three {
+  margin: 5vh auto;
+  width: 100%;
+  height: 30vh;
+}
+
+}
