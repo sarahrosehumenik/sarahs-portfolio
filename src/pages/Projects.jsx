@@ -9,10 +9,10 @@ import ProjectOne from "../components/ProjectOne.js";
 
 export default function Projects() {
     const projectInfo = [
-        { img: ["https://i.imgur.com/FsqfNhT.png",
-                "https://i.imgur.com/Gz8KWUy.png",
-                "https://i.imgur.com/Bhqeftf.png",
-                "https://i.imgur.com/l0CWI1M.png"],
+        { img: ["https://i.imgur.com/ozZJnDH.png",
+                "https://i.imgur.com/tVtWgQx.png",
+                "https://i.imgur.com/YwyEmCM.png",
+                "https://i.imgur.com/X0QgtDR.png"],
          tech: "MEN Stack",
          title: "Secrets Make Friends",
          description: "A place to gather and spill all your tea. This website can build the most unique and fun friendships This web app. built with a MEN stack displays serverside rendering. Full CRUD using MongoDB.",
