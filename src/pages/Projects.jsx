@@ -30,9 +30,9 @@ export default function Projects() {
     links:["https://checkme-out.herokuapp.com/", "https://github.com/sarahrosehumenik/creative_marketplace"]
     },
     { img: ["https://i.imgur.com/gzXWnLD.png",
-            "https://i.imgur.com/65hH1Ej.png",
+            "https://i.imgur.com/ypeKdbS.png",
             "https://i.imgur.com/H8xum0m.png",
-            "https://i.imgur.com/eu64waZ.png"],
+            "https://i.imgur.com/nrixNuc.png"],
     tech: "React",
     title: "That Feeling When",
     description: "A clean space to be in your feelings, inspired by neo-brutalism and the feels",
