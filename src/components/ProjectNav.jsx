@@ -1,20 +1,17 @@
 import React from "react";
 import "./ProjectNav.css";
 
-
-
 export default function ProjectNav({setBigImage, setProjectData, projectInfo}) {
 
 const menProject = () => {
   setProjectData(projectInfo[0])
   setBigImage(projectInfo[0].img[0])
-
 }
+
 const djangoProject = () => {
   setProjectData(projectInfo[1])
   setBigImage(projectInfo[1].img[0])
     console.log("hi")
-
 }
 
 const reactProject = () => {
@@ -25,8 +22,7 @@ const reactProject = () => {
 const staticProject = () => {
     setProjectData(projectInfo[3])
     setBigImage(projectInfo[3].img[0])
-  
-  }
+}
     return (
         <ul className="project-nav">
             <li onClick={() => menProject()} className="project-nav-button">Secrets Make Friends</li>

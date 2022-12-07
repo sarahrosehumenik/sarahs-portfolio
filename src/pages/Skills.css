@@ -21,30 +21,23 @@
   width: 50%;
   margin-top: 15vh;
   margin-left: 4vh;
-  
-  
- 
 }
 
 #skills-img {
   width: 80%;
   height: 15vh;
-  
-  
   object-fit: cover;
   margin: 3vh;
   padding-bottom: 2vh;
   border-bottom: 1px rgb(221, 6, 6) solid;
-  
 }
-.skills-title{
 
+.skills-title{
   width: 80%;
   font-size: 30px;
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
   margin-bottom: 4vh;
-
 }
 
 .about-skills {
@@ -53,34 +46,27 @@
   font-family: 'Kumbh Sans', sans-serif;
   color: grey;
   text-align: center;
-
-
 }
+
 .button-board {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
- 
-  
 }
+
 .display {
   display: flex;
   justify-content:center;
-  
   margin-top: 20vh;
-
-  
-  
   text-align: center;
-  
 }
+
 .skill-text {
   font-family: 'Kumbh Sans', sans-serif;
   color:rgb(70, 70, 70);
   font-size: 25px;
-
 }
 
 
@@ -91,11 +77,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  
-
   width: 350px;
   background-color: rgb(255, 255, 255);
-  
 }
 
 .icon-container {
@@ -104,19 +87,16 @@
   width: 50px;
   background-color: rgb(200, 140, 240);
   font-family: 'Kumbh Sans', sans-serif;
-  
   display: flex;
   justify-content:center;
   align-items: center;
   cursor: pointer;
   border-radius: 50%;
-  
 }
 
 #i {
   font-size: 25px;
   margin: auto;
-  
 }
 
 .icon-container:active {
@@ -126,10 +106,7 @@
 .icon-container:hover {
   background-color: rgb(221, 255, 0);
 }
-.extra-space {
-  height: 7vh;
-  width: 100%;
-}
+
 
 @media (max-width: 850px) {
   .skills-container {
@@ -147,39 +124,33 @@
   }
 
   .skills-title{
-
     width: 110%;
     text-align: center;
-
-  
   }
   
   .about-skills {
     width: 110%;
     text-align: center;
-    
-  
-  
-}
-.skills-description {
-margin-top: 4vh;
+  }
+   
+ .skills-description {
+  margin-top: 4vh;
   width: 80%;
   margin-left: 0;
+ }
 
-}
-
-
-.display {
+  .display {
   margin-top:0;
-}
+ }
+
 .skill-text {
   font-size: 20px;
-}
+ }
 
 }
 
 @media (max-width: 420px) {
-  .skills-list{
+  .skills-list {
   height: 100px;
   width: 300px;
   }

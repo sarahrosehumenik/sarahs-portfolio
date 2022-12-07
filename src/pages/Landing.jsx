@@ -1,7 +1,7 @@
 import "./Landing.css"
 
-
 export default function Landing() {
+
     return (
         <div className="landing-container">
             <div className="spacer"></div>
@@ -18,7 +18,8 @@ export default function Landing() {
             <div className="bottom-section">
                 <div className="space-two"></div>
                 <div className="contact-info">
-                    <a className="email" href="mailto:sarahrosehumenik@gmail.com">Email: Sarahrosehumenik@gmail.com</a>
+                    <a className="info email" href="mailto:sarahrosehumenik@gmail.com">Email: Sarahrosehumenik@gmail.com</a>
+                    <a href="" className="info repo"> ➤ Portfolio Repo</a>
                     <div className="logos-container">
                         <a href="https://github.com/sarahrosehumenik"><i id="contact-logo" class="fa-brands fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/sarah-rose33/"><i id="contact-logo" class="fa-brands fa-linkedin-in"></i></a>

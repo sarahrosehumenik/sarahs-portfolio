@@ -8,7 +8,6 @@
     display: flex;
 }
 
-
 .headshot {
     margin: -1vh auto;
     height: 35px;
@@ -16,7 +15,6 @@
     display: flex;
     position: absolute;
     right: 3vh;
-
 }
 
 

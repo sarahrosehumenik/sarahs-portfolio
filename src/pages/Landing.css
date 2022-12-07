@@ -1,19 +1,18 @@
 .landing-container {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 80vh;
-    z-index: -50;
-    margin: 1.5vh auto;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    justify-content: space-between;
-    border-top: 1px rgb(189, 189, 189) solid;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 80vh;
+  z-index: -50;
+  margin: 1.5vh auto;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  border-top: 1px rgb(189, 189, 189) solid;
 }
 
 .spacer {
   height: 2vh;
-  
 }
 
 .top-section {
@@ -40,7 +39,6 @@
   height:100%;
   width: 100%;
   object-fit:cover;
-
 }
 
 .landing-text {
@@ -50,32 +48,28 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
- 
- 
   font-family: 'Kumbh Sans', sans-serif;
-
-
-
 }
+
 .name {
   color: rgb(38, 39, 39);
   width: 70%;
   font-size: 30px;
- 
-  
 }
+
 .title {
   width: 70%;
   color:rgb(200, 140, 240);
   font-size: 13px;
 }
-.about {
 
+.about {
   width: 70%;
   margin-top: 2vh;
   font-size: 15px;
   color:grey;
 }
+
 .bottom-section {
   display: flex;
   flex-direction: row;
@@ -83,12 +77,10 @@
   height: 40%;
 }
 
-
 .space-two {
   background-color: rgb(221, 255, 0);
   height: 100%;
   width: 20%;
-
 }
 
 .contact-info {
@@ -99,46 +91,55 @@
   flex-direction: column;
   align-items: center;
   font-family: 'Kumbh Sans', sans-serif;
-  
- 
 }
-.email {
-  margin: 4vh;
+
+.info {
+  margin: 2vh;
   text-align: center;
   font-size: 15px;
   color: rgb(66, 66, 65);
   text-decoration: none;
 }
 
-.email:hover {
+.info:hover {
   background-color: rgb(250, 17, 17);
   color: white;
 }
-.logo-container {
+
+.email {
+  color: rgb(58, 58, 58);
+  font-size: 14px;
+}
+
+.repo {
+  color: rgb(58, 58, 58);
+  font-size: 12px;
+}
+
+.logos-container {
   display:flex;
   flex-direction:row;
+  margin: 2vh auto;
 }
+
 #contact-logo {
   font-size: 30px;
- margin: 0 3vh 0 3vh;
- color:rgb(0, 116, 89);
+  margin: 0 3vh 0 3vh;
+  color:rgb(0, 116, 89);
 }
 
 .space-three {
   background-color: rgb(30, 61, 199);
   height: 100%;
   width: 40%;
-
 }
 
 @media (max-width: 700px) {
   .landing-container {
     margin-top: 6.5vh;
     height: 100%;
-    
     border-bottom: 1px rgb(189, 189, 189) solid;
-
-  }
+   }
 
   .top-section {
     flex-direction: column;
@@ -166,14 +167,14 @@
     height: 5vh;
 }
 
-.contact-info {
- width: 100%;
-}
-
-.space-three {
-  margin: 5vh auto;
+  .contact-info {
   width: 100%;
-  height: 30vh;
-}
+  }
+
+  .space-three {
+    margin: 5vh auto;
+    width: 100%;
+    height: 30vh;
+  }
 
 }

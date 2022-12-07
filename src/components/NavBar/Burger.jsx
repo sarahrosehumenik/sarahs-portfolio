@@ -8,7 +8,6 @@ const StyledBurger = styled.div`
   position: absolute;
   top: 4vh;
   right: 6.5vh;
- 
   display: none;
   @media (max-width: 632px) {
     display: flex;
@@ -20,10 +19,8 @@ const StyledBurger = styled.div`
     width: 5vh;
     height: 0.25rem;
     background-color: rgb(200, 140, 240); //BURGER ICON COLOR
-  
     border-radius: 10px;
     transform-origin: 1px;
-
     transition: all 0.3s linear;
     &:nth-child(1) {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};

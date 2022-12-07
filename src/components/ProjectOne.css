@@ -1,5 +1,4 @@
 .project-container {
-   
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -9,26 +8,18 @@
     align-items: center;
     background-color: white;
     justify-content: space-between;
-    
-    
-  }
-
+}
 
 .big-image {
     height: 40vh;
     background-color: rgb(238, 198, 205);
-  
 }
-
-
-
 
 .images {
     cursor: pointer;
     height: 8vh;
     position: relative;
     height: 8vh;
-    
     margin: 1.5vh;
     object-fit: fill;
     background-color: rgb(238, 198, 205);

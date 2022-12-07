@@ -28,7 +28,7 @@ const Ul = styled.nav`
     padding-top: 10rem;
     transition: transform 0.3s ease-in-out;
     text-align: center;
-    .side-menu{
+    .side-menu {
       visibility: visible;
       position: relative;
     }
@@ -46,7 +46,6 @@ const barStyle = {
 }
 
 const RightNav = ({ open, setOpen }) => {
-
   const closeNav = () => {
     setOpen(false)
   }

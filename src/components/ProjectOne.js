@@ -3,9 +3,6 @@ import "./ProjectOne.css"
 import { useState } from "react";
 import ProjectNav from "./ProjectNav.jsx";
 
-
-
-
 export default function ProjectOne({ projectData, setProjectData, projectInfo }) {
 
 const [bigImage, setBigImage] = useState(projectData.img[0])
@@ -14,28 +11,21 @@ const images = projectData.img.map((el) => {
     return (
         <img 
         onClick={()=> handleImg(el)}
-        className="images" src={el} />
+        className="images" 
+        src={el} />
     )
-       
 })
-
 
 const handleImg = (image) => {
     setBigImage(image)
 }
 
-
-
-
-    return (
+     return (
         <>
         <ProjectNav setProjectData={setProjectData} setBigImage={setBigImage} projectInfo={projectInfo}/>
         <div className="project-container">
-           
-           
-            <div className="all-images">
-                <img className="big-image" src={bigImage} />
-
+           <div className="all-images">
+             <img className="big-image" src={bigImage} />
                 <div className="small-images">
                     {images}
                 </div>
@@ -53,11 +43,9 @@ const handleImg = (image) => {
                 </div>
                 <div className="project-links">
                     <a className="links" target="_blank" href={projectData.links[0]}>Website</a><a className="links" target="_blank" href={projectData.links[1]}>GitHub</a>
-   
                 </div>
             </div>
         </div>
-        </>
-
-    )
+    </>
+   )
 }

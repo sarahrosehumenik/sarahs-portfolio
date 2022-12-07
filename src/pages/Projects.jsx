@@ -2,13 +2,9 @@ import './Projects.css'
 import { useState, useEffect } from 'react';
 import ProjectOne from "../components/ProjectOne.js";
 
-
-
-
-
-
 export default function Projects() {
-    const projectInfo = [
+
+const projectInfo = [
         { img: ["https://i.imgur.com/ozZJnDH.png",
                 "https://i.imgur.com/tVtWgQx.png",
                 "https://i.imgur.com/YwyEmCM.png",
@@ -29,10 +25,10 @@ export default function Projects() {
     icons: ["fa-brands fa-aws","fa-brands fa-stripe","Django","PostgreSQL"],
     links:["https://checkme-out.herokuapp.com/", "https://github.com/sarahrosehumenik/creative_marketplace"]
     },
-    { img: ["https://i.imgur.com/gzXWnLD.png",
-            "https://i.imgur.com/ypeKdbS.png",
-            "https://i.imgur.com/H8xum0m.png",
-            "https://i.imgur.com/nrixNuc.png"],
+    { img: ["https://i.imgur.com/dw6k6IO.png",
+            "https://i.imgur.com/vjBsyxu.png",
+            "https://i.imgur.com/vcuZyXs.png",
+            "https://i.imgur.com/KEu9TKO.png"],
     tech: "React",
     title: "That Feeling When",
     description: "A clean space to be in your feelings, inspired by neo-brutalism and the feels",
@@ -49,15 +45,8 @@ export default function Projects() {
     icons: ["fa-brands fa-js","fa-brands fa-css3-alt","HTML","Grid"],
     links:["https://sarahrosehumenik.github.io/projectone/", "https://github.com/sarahrosehumenik/projectone"]
     }]
+
 const [projectData, setProjectData] = useState(projectInfo[0])
 
-   return (
-       <>
-       
-      
-       <ProjectOne projectInfo={projectInfo} projectData={projectData} setProjectData={setProjectData} />
-   
-       </>
-      )
-
+   return (<ProjectOne projectInfo={projectInfo} projectData={projectData} setProjectData={setProjectData} />)
 }
