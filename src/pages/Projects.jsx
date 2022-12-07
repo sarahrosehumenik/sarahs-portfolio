@@ -31,7 +31,7 @@ export default function Projects() {
     },
     { img: ["https://i.imgur.com/gzXWnLD.png",
             "https://i.imgur.com/65hH1Ej.png",
-            "https://i.imgur.com/65hH1Ej.png",
+            "https://i.imgur.com/H8xum0m.png",
             "https://i.imgur.com/eu64waZ.png"],
     tech: "React",
     title: "That Feeling When",
