@@ -31,7 +31,7 @@ const projectInfo = [
             "https://i.imgur.com/KEu9TKO.png"],
     tech: "React",
     title: "That Feeling When",
-    description: "A clean space to be in your feelings, inspired by neo-brutalism and the feels",
+    description: "A clean space to be in your feelings, inspired by neo-brutalism and the feels. Inlcudes a touch screen enabled canvas and APIs to fill your voids.",
     icons: ["fa-brands fa-react","fa-brands fa-css3-alt","Canvas","Fetch"],
     links:["https://that-feeling-when.netlify.app/", "https://github.com/sarahrosehumenik/tfw"]
     },

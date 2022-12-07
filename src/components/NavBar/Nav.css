@@ -17,7 +17,6 @@
     right: 3vh;
 }
 
-
 @media  (max-width: 632px){
     .headshot{
         visibility: hidden
