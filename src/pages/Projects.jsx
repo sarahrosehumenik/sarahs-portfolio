@@ -29,6 +29,16 @@ export default function Projects() {
     icons: ["fa-brands fa-aws","fa-brands fa-stripe","Django","PostgreSQL"],
     links:["https://checkme-out.herokuapp.com/", "https://github.com/sarahrosehumenik/creative_marketplace"]
     },
+    { img: ["https://i.imgur.com/gzXWnLD.png",
+            "https://i.imgur.com/65hH1Ej.png",
+            "https://i.imgur.com/65hH1Ej.png",
+            "https://i.imgur.com/eu64waZ.png"],
+    tech: "React",
+    title: "That Feeling When",
+    description: "A clean space to be in your feelings, inspired by neo-brutalism and the feels",
+    icons: ["fa-brands fa-react","fa-brands fa-css3-alt","Canvas","Fetch"],
+    links:["https://that-feeling-when.netlify.app/", "https://github.com/sarahrosehumenik/tfw"]
+    },
     { img: ["https://i.imgur.com/8rypuJO.png",
               "https://i.imgur.com/d1KdGjD.png",
               "https://i.imgur.com/fY9B8EV.png",
