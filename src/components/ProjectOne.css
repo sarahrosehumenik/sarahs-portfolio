@@ -1,125 +1,121 @@
 .project-container {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    height: 70vh;
-    z-index: -50;
-    margin:  auto;
-    align-items: center;
-    background-color: white;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  /* height: 70vh; */
+  z-index: -50;
+  margin: 100px auto;
+  grid-gap: 20px;
+
+  background-color: white;
+  justify-content: space-between;
 }
 
 .big-image {
-    height: 40vh;
-    background-color: rgb(238, 198, 205);
+  max-width: 1000px;
+  width: 90%;
+  background-color: rgb(238, 198, 205);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 7px;
 }
 
 .images {
-    cursor: pointer;
-    height: 8vh;
-    position: relative;
-    height: 8vh;
-    margin: 1.5vh;
-    object-fit: fill;
-    background-color: rgb(238, 198, 205);
+  cursor: pointer;
+  position: relative;
+  width: 30%;
+  object-fit: fill;
+  background-color: rgb(238, 198, 205);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 7px;
 }
 
-
-
-
-
-
 .all-images {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5vh;
-    
-    
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .small-images {
-    display: flex;
-    flex-direction: row;
-    margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  justify-content: flex-start;
+  width: 90%;
+  grid-gap: 20px;
+  margin-top: 20px;
 }
 
 .project-information {
-    display: flex;
-    flex-direction: column;
-    
-    width: 45%;
-    justify-content: space-evenly;
-    margin-left: 100px;
-    font-family: 'Kumbh Sans', sans-serif;
-    height: 40%;
-    
-    
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: flex-start;
+  grid-gap: 15px;
+  font-family: "Kumbh Sans", sans-serif;
+  align-items: flex-start;
 }
 
 .tech-stack {
-    color: rgb(91, 90, 90);
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 2vh;
-    
-}
-.project-title {
-    color: rgb(38, 39, 39);
+  color: rgb(91, 90, 90);
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
 }
 
+.project-title {
+  color: rgb(38, 39, 39);
+  font-size: 22px;
+}
 
 .description {
-    color: grey;
-    font-size: 13px;
-    line-height: 4vh;
-    width: 90%;
-    
+  color: grey;
+  font-size: 13px;
+  line-height: 4vh;
+  width: 100%;
 }
+
 .tech-icons {
-    margin-top: 2vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width:40%;
-    font-size: 12px;
-    color: rgb(90, 88, 88);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  font-size: 12px;
+  color: rgb(90, 88, 88);
 }
-i, .solo-icon {
-    margin-right: 3vh;
-    
+i,
+.solo-icon {
+  margin-right: 3vh;
 }
 .project-links {
-    margin-top: 3vh;
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-    justify-content: space-between;
-    
-    
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
 }
 .links {
-    text-decoration: none;
-    padding: 10px 25px 10px 25px;
-    background-color: rgb(200, 140, 240);
-    margin-right: 20px; 
-    color: white;
-    
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.45);
-    font-size: 15px;
-    
+  text-decoration: none;
+  padding: 10px 25px 10px 25px;
+  background-color: rgb(200, 140, 240);
+  margin-right: 20px;
+  color: white;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  font-size: 12px;
+  border-radius: 50px;
 }
 
 .links:active {
-    transform:scale(0.95);
+  transform: scale(0.95);
 }
 
 .selected {
-    border: 2px grey solid;
+  border: 2px grey solid;
 }
 /* @media (max-width:900px) {
     .big-image{
@@ -133,68 +129,66 @@ i, .solo-icon {
     }
 } */
 @media (max-width: 920px) {
-    .project-container {
-        margin: 4.5vh auto;
-        flex-direction:column;
-        height: 100%;
-        width: 100%;
-      
-        
-    }
-    .all-images {
-        margin-left: 0;
-    }
-    
-    .big-image{
-        height:52vw;
-        
-    }
-    .images {
-        height: 10vw;
-    }
-    .project-information {
-        margin: 5vh auto;
-        text-align: center;
-        width: 90%;
-        border-bottom: 1px rgb(189, 189, 189) solid;
-        padding-bottom: 3vh;
-    }
-    .project-title {
-        font-size: 28px;
-    }
-    .tech-stack {
-        font-size: 14px;
-    }
-    .description {
-        width:100%;
-    }
-    .tech-icons {
-        margin: 2vh auto;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        font-size: 15px;
-        
-    }
-    i, .solo-icon {
-        margin: 3vh;
-        
-    }
-    
-    .project-links {
-        margin:  auto;
-        display: flex;
-        justify-content: center;
-        grid-gap: 20px;
-    }
-    
-    .links {
-        font-size: 12px;
-        margin: 1vh;
-        
-    }
-    
-    /* .images-container:hover .images-container::before {
+  .project-container {
+    margin: 4.5vh auto;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  .all-images {
+    margin-left: 0;
+    width: 90%;
+    align-items: center;
+  }
+
+  .small-images {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .images {
+    height: auto;
+    width: 30%;
+  }
+
+  .project-information {
+    margin-top: 30px;
+    text-align: center;
+    width: 90%;
+    align-items: center;
+
+    padding-bottom: 3vh;
+  }
+  .project-title {
+    font-size: 22px;
+  }
+  .tech-stack {
+    font-size: 14px;
+  }
+  .description {
+    width: 100%;
+  }
+  .tech-icons {
+    font-size: 15px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .project-links {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+  }
+
+  .links {
+    font-size: 12px;
+    margin: 1vh;
+  }
+
+  /* .images-container:hover .images-container::before {
         content: "";
         position: absolute;
         background-color: rgb(221, 255, 0, .5);

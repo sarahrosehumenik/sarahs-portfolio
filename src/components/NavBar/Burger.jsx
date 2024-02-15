@@ -1,23 +1,21 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import RightNav from './MyRightNav';
+
 
 const StyledBurger = styled.div`
-  width: 2vh;
-  height: 4vh;
+
+  height: 30px;
+  width: 30px;
   position: absolute;
-  top: 4vh;
-  right: 6.5vh;
-  display: none;
-  @media (max-width: 632px) {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-    z-index: 30;
-  }
+  top: 15px;
+  right: 15px;
+  z-index: 20;
+
+ 
   div {
-    width: 5vh;
+    width: 30px;
     height: 0.25rem;
+    margin: 5px;
     background-color: rgb(200, 140, 240); //BURGER ICON COLOR
     border-radius: 10px;
     transform-origin: 1px;
@@ -35,17 +33,17 @@ const StyledBurger = styled.div`
   }
 `;
 
-const Burger = () => {
-  const [open, setOpen] = useState(false)
-  
+const Burger = ({ toggleNavigation, toggleNav }) => {
+
+
   return (
     <>
-      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <StyledBurger open={toggleNav} onClick={() => toggleNavigation()}>
         <div />
         <div />
         <div />
       </StyledBurger>
-      <RightNav setOpen={setOpen} open={open}/>
+
     </>
   )
 }

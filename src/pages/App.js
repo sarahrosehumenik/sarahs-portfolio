@@ -1,5 +1,5 @@
 import './App.css';
-import NavBar from '../components/NavBar/NavBar';
+import Navigation from '../components/NavBar/Navigation';
 import { Routes, Route } from 'react-router-dom';
 import Landing from "./Landing.jsx"
 import Skills from "./Skills.jsx"
@@ -8,7 +8,7 @@ import Projects from "./Projects.jsx"
 const App = () => {
   return (
     <main className="app">
-     <NavBar />
+     <Navigation />
        <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/skills" element={<Skills />} />

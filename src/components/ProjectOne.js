@@ -20,10 +20,22 @@ const handleImg = (image) => {
     setBigImage(image)
 }
 
+  const fadeIn = () => {
+    let opacity = 0;
+         document.getElementById('projectContainer').style.opacity = opacity;
+    const intervalId = setInterval(() => {
+      opacity += 0.09; 
+      if (opacity >= 1) {
+        clearInterval(intervalId);
+      }
+      document.getElementById('projectContainer').style.opacity = opacity;
+    }, 30); 
+  };
+
      return (
         <>
-        <ProjectNav setProjectData={setProjectData} setBigImage={setBigImage} projectInfo={projectInfo}/>
-        <div className="project-container">
+        <ProjectNav fadeIn={fadeIn} setProjectData={setProjectData} setBigImage={setBigImage} projectInfo={projectInfo}/>
+        <div id="projectContainer" className="project-container">
            <div className="all-images">
              <img className="big-image" src={bigImage} />
                 <div className="small-images">

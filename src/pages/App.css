@@ -1,16 +1,6 @@
 :root {
-  background-color:  white;
-  background-size: auto;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  
-
- top: 0;
-
-
+  background-color: white;
 }
-
 
 * {
   margin: 0;
@@ -18,8 +8,6 @@
   border: 0;
 }
 
-
 .mobile-hidden {
   visibility: hidden;
 }
-  
