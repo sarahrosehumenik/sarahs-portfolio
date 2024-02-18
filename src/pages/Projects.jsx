@@ -21,7 +21,7 @@ export default function Projects() {
                         title: "Secrets Make Friends",
                         description: "Welcome to a space designed for sharing tea and building connections. This solo project, created with a MERN stack, features a React front end connected to a MongoDB/Mongoose backend via an Express server. Utilizing the MERN architecture, the application allows for Full CRUD operations using MongoDB.The integration of the Tenor API allows for the posting as many GIFs as one desires. Thats why we are here, right?",
                         icons: ["fa-brands fa-google", "fa-brands fa-react", "MongoDB", "Mongoose"],
-                        links: ["https://secrets-project6969.herokuapp.com/", "https://github.com/sarahrosehumenik/secretsproject"]
+                        links: ["/comingsoon", "https://github.com/sarahrosehumenik/secretsfrontend"]
                 },
                 {
                         img: [check1, check2, check3],
